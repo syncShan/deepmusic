@@ -13,10 +13,8 @@ from music21 import *
 from collections import defaultdict, OrderedDict
 from itertools import groupby, zip_longest
 
-from grammar import *
-
-from grammar import parse_melody
-from music_utils import *
+from deepjazz.grammar import *
+from deepjazz.music_utils import *
 
 #----------------------------HELPER FUNCTIONS----------------------------------#
 

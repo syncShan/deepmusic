@@ -5,9 +5,9 @@ from keras.layers import RepeatVector
 import sys
 from music21 import *
 import numpy as np
-from grammar import *
-from preprocess import *
-from qa import *
+from deepjazz.grammar import *
+from deepjazz.preprocess import *
+from deepjazz.qa import *
 
 
 def data_processing(corpus, values_indices, m = 60, Tx = 30):
